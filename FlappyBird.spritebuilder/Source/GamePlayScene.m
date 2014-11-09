@@ -4,7 +4,7 @@
 
 @implementation
 
-- (void)initialize (gamePlayScene)
+-(void)initialize
 
 {
     // your code here;
@@ -12,15 +12,16 @@
     [physicsNode addChild:character];
 }
 
-- (void)update:(CCTime)delta
+-(void)update:(CCTime)
 
-{    // put new methods here;
-
-- (void)touchBegan:(UITouch *)touchwithEvent:(UIEvent *)event {
+{ // put new methods here;}
+    
+    
+-(void)touchBegan:(UITouch *)touchwithEvent:(UIEvent *)event {
     // this will get called every time the player touches the screen
     }
 
-- (type I return)nameOfMethod: (type of first parameter) firstParameter continuationOfMethodName: (type of second parameter) secondParameter
+-(type I return)nameOfMethod: (type of first parameter) firstParameter continuationOfMethodName: (type of second parameter) secondParameter
 
 
 @end
